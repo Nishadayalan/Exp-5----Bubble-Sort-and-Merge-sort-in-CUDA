@@ -346,4 +346,4 @@ int main() {
 
 
 ## RESULT:
-Thus, the program has been executed using CUDA to implement Bubble Sort and Merge Sort.
+The experiment shows that GPU acceleration does not automatically make every sorting algorithm faster. For the given Merge Sort test, the CPU completed the operation in 1.87 ms, while the GPU required 23.03 ms, making the CPU approximately 12.3× faster. Although the Bubble Sort GPU time was only 109.76 ms, the reported CPU time of 262,214,890 ms is clearly anomalous and should be rechecked. Therefore, the Merge Sort comparison provides the more reliable performance result from the supplied data.
